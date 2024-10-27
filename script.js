@@ -30,6 +30,26 @@ document.addEventListener('DOMContentLoaded', () => {
         themeToggle.checked = true;
     }
 
+
+    let lastScrollTop = 0; // Variable to keep track of last scroll position
+        const header = document.querySelector('.header');
+
+        window.addEventListener('scroll', function() {
+        let scrollTop = window.pageYOffset || document.documentElement.scrollTop; // Current scroll position
+
+        if (scrollTop > lastScrollTop) {
+        // Scrolling down
+        header.classList.add('hidden'); // Add hidden class to header
+    } else {
+        // Scrolling up
+        header.classList.remove('hidden'); // Remove hidden class from header
+    }
+
+        lastScrollTop = scrollTop; // Update last scroll position
+    });
+
+
+
     // Smooth scrolling for navigation links
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function (e) {
