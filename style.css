@@ -1284,6 +1284,11 @@ img {
         font-size: 31PX;
         margin-bottom: 14px;
     }
+
+    a.logo{
+        font-size: 32PX;
+    }
+
 }
 
 /* Tablet (768px to 1023px) */
@@ -1320,7 +1325,7 @@ img {
     }
 
     h2 {
-        font-size: 25px;
+        font-size: 28px;
     }
 
     h3 {
@@ -1378,6 +1383,9 @@ img {
         font-size: 24PX;
         margin-bottom: 14px;
     }
+    a.logo{
+        font-size: 28PX;
+    }
 }
 
 /* Large Mobile (481px to 767px) */
@@ -1419,7 +1427,7 @@ img {
     }
 
     h2 {
-        font-size: 26px;
+        font-size: 25px;
     }
 
     h3 {
@@ -1482,6 +1490,10 @@ img {
     h2.typing-text {
         font-size: 25PX;
         margin-bottom: 14px;
+    }
+
+    a.logo{
+        font-size: 24PX;
     }
 
     }
@@ -1581,6 +1593,9 @@ img {
         margin-bottom: 14px;
     }
 
+    a.logo{
+        font-size: 22PX;
+    }
     }
 
 
@@ -1683,6 +1698,10 @@ img {
     h2.typing-text {
         font-size: 17PX;
         margin-bottom: 14px;
+    }
+
+    a.logo{
+        font-size: 16PX;
     }
         }
 
