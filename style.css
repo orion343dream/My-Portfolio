@@ -422,6 +422,20 @@ h4 {
     animation: float 1s ease-in-out 0.1s;
 }
 
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+
+
 /* Stats container styles */
 
 .stats-container {
@@ -879,6 +893,12 @@ h3 {
     transition: all 0.3s ease;
 }
 
+.assigments-grid:hover , .project-grid:hover {
+    box-shadow: 0 30px 50px var(--secondary-color);
+    animation: float 1s ease-in-out 0.1s;
+    border-radius: 10px;
+}
+
 .assigments-item a:hover .overlay,
 .project-item a:hover .overlay {
     opacity: 1;
@@ -905,6 +925,7 @@ h3 {
     transform: scale(1.05);
     filter: brightness(0.7);
 }
+
 
 
 @keyframes gradientShift {
