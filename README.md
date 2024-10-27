@@ -47,7 +47,7 @@ Installation
 Clone the repository
 
 bashCopygit clone https://github.com/orion343dream/My-Portfolio
-cd portfolio
+
 
 Install dependencies
 
