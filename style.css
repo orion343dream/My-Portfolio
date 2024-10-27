@@ -554,16 +554,16 @@ h4 {
         max-width: 100%;
         height: auto;
     }
+
+    .typing-text{
+        font-size: 10px ;
+    }
 }
 
 /* Medium Mobile (321px to 480px) */
 @media (max-width: 480px) {
     h2 {
         font-size: 28px;
-    }
-
-    .cta-button {
-        width: 100%;
     }
 
     .profile-image {
@@ -675,12 +675,6 @@ h4 {
 /* Education Section Styles */
 .education-container {
     padding: 40px 0;
-}
-
-.education-title {
-    font-size: 2rem;
-    text-align: center;
-    margin-bottom: 40px;
 }
 
 .education-section {
@@ -1233,6 +1227,11 @@ img {
         margin-bottom: 15px;
         max-width: 1200px;
     }
+
+    h2.typing-text {
+        font-size: 35PX;
+        margin-bottom: 14px;
+    }
 }
 
 /* Desktop screens (1024px to 1439px) */
@@ -1279,6 +1278,11 @@ img {
         font-size: 16px;
         margin-bottom: 13px;
         max-width: 1050px;
+    }
+
+    h2.typing-text {
+        font-size: 31PX;
+        margin-bottom: 14px;
     }
 }
 
@@ -1331,8 +1335,6 @@ img {
         font-size: 14px;
     }
 
-
-
     .stats-container,
     .services-grid,
     .projects-grid
@@ -1370,6 +1372,11 @@ img {
 
     .footer-social a {
         margin: 0 10px;
+    }
+
+    h2.typing-text {
+        font-size: 24PX;
+        margin-bottom: 14px;
     }
 }
 
@@ -1472,6 +1479,11 @@ img {
             margin: 0 auto;
         }
 
+    h2.typing-text {
+        font-size: 25PX;
+        margin-bottom: 14px;
+    }
+
     }
 
 /* Medium Mobile (321px to 480px) */
@@ -1563,6 +1575,12 @@ img {
         width: 100%;
         margin: 10px 0;
         }
+
+    h2.typing-text {
+        font-size: 21PX;
+        margin-bottom: 14px;
+    }
+
     }
 
 
@@ -1661,6 +1679,11 @@ img {
     .skill-bar {
         width: 50%;
     }
+
+    h2.typing-text {
+        font-size: 17PX;
+        margin-bottom: 14px;
+    }
         }
 
 
@@ -1701,13 +1724,7 @@ img {
     50% { opacity: 0; }
 }
 
-h2.typing-text {
-    font-size: 24px;
-    margin-bottom: 14px;
-}
-
 p.typing-text {
-    font-size: 14px;
     margin-bottom: 20px;
 }
 
