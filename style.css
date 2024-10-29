@@ -46,7 +46,6 @@ body {
 /* Header styles */
 
 .header {
-
     position: fixed;
     top: 0;
     left: 0;
@@ -629,7 +628,6 @@ h4 {
     margin: 0 auto 20px;
     text-align: center;
     color: var(--text-color);
-    font-size: 18px;
     line-height: 1.6;
 }
 
@@ -809,16 +807,14 @@ h3 {
     text-align: center;
 }
 
-.proceedings-description-p .skills-description-p .service-description-p {
+.proceedings-description-p, .skills-description-p, .service-description-p {
     text-align: center;
-    width: 80%;
     margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: center;
     color: var(--text-color);
     height: 100%;
-
 }
 
 
@@ -1309,11 +1305,6 @@ img {
         font-size: 23PX;
     }
 
-    about-text-p{
-
-        text-align: left;
-    }
-
 
 }
 
@@ -1505,17 +1496,17 @@ img {
     }
 
     .proceedings-grid {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
-        }
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
 
     .assigments-grid, .project-grid {
-            width: 100%;
-            max-width: 600px;
-            margin: 0 auto;
-        }
+        width: 100%;
+        max-width: 600px;
+        margin: 0 auto;
+    }
 
     h2.typing-text {
         font-size: 25PX;
@@ -1526,7 +1517,7 @@ img {
         font-size: 24PX;
     }
 
-    }
+}
 
 /* Medium Mobile (321px to 480px) */
 @media (max-width: 480px) {
@@ -1595,16 +1586,16 @@ img {
     }
 
     .proceedings-grid {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
-        }
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
 
     .assigments-grid, .project-grid {
-            width: 100%;
-            max-width: 550px;
-            margin: 0 auto;
+        width: 100%;
+        max-width: 550px;
+        margin: 0 auto;
     }
 
     .skill-name {
@@ -1621,7 +1612,7 @@ img {
     .skill-card {
         width: 100%;
         margin: 10px 0;
-        }
+    }
 
     h2.typing-text {
         font-size: 21PX;
@@ -1631,12 +1622,11 @@ img {
     a.logo{
         font-size: 22PX;
     }
-    }
+}
 
 
 /* Small Mobile (320px and below) */
 @media (max-width: 320px) {
-
 
     .nav-links {
         display: none;
@@ -1699,22 +1689,22 @@ img {
     }
 
     .proceedings-grid {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
-        }
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
 
     .assigments-grid, .project-grid {
-            width: 100%;
-            max-width: 500px;
-            margin: 0 auto;
-        }
+        width: 100%;
+        max-width: 500px;
+        margin: 0 auto;
+    }
 
     .skills-container {
-            flex-wrap: wrap; /* Allow items to wrap into multiple rows */
-            justify-content: center; /* Center the items */
-        }
+        flex-wrap: wrap; /* Allow items to wrap into multiple rows */
+        justify-content: center; /* Center the items */
+    }
 
     .skill-card {
         width: 70%;
@@ -1743,7 +1733,7 @@ img {
     a.logo{
         font-size: 16PX;
     }
-        }
+}
 
 
 /* Typing animation styles */
