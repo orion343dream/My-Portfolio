@@ -821,7 +821,7 @@ h3 {
     text-align: center;
 }
 
-.proceedings-description-p .skills-description-p .about-text-p {
+.proceedings-description-p .skills-description-p .about-text-p .class="service-description-p{
     text-align: center;
     width: 80%;
     margin: 0 auto;
