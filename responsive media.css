@@ -1,0 +1,632 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+/* Large Desktop (1440px and above) */
+@media (min-width: 1440px) {
+    .header-content {
+        max-width: 1400px;
+        padding: 20px 40px;
+    }
+
+    .nav-links a {
+        font-size: 20px;
+    }
+
+    .bar {
+        width: 35px;
+        height: 5px;
+        margin: 5px 0;
+
+    }
+    .hero-text {
+        max-width: 800px;
+        text-align: center;
+    }
+
+
+    h1 {
+        font-size: 48px;
+        font-weight: 800;
+        margin-bottom: 30px;
+    }
+
+    h2 {
+        font-size: 36px;
+    }
+
+    h3 {
+        font-size: 30px;
+    }
+
+    h4 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 20px;
+        margin-bottom: 15px;
+        max-width: 1200px;
+        text-align: center;
+    }
+
+    h2.typing-text {
+        font-size: 35PX;
+        margin-bottom: 14px;
+    }
+}
+
+/* Desktop screens (1024px to 1439px) */
+@media (max-width: 1439px) and (min-width: 1024px) {
+    .header-content {
+        max-width: 1200px;
+        padding: 20px 30px;
+    }
+
+    .nav-links a {
+        font-size: 14px;
+    }
+    .bar {
+        width: 35px;
+        height: 5px;
+        margin: 5px 0;
+
+    }
+    .hero-text {
+        max-width: 800px;
+        text-align: center;
+    }
+
+
+    h1 {
+        font-size: 42px;
+        font-weight: 750;
+        margin-bottom: 25px;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+    h3 {
+        font-size: 28px;
+    }
+
+    h4 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 18px;
+        margin-bottom: 13px;
+        max-width: 1050px;
+        text-align: center;
+    }
+
+    h2.typing-text {
+        font-size: 31PX;
+        margin-bottom: 14px;
+    }
+
+    a.logo{
+        font-size: 23PX;
+    }
+
+
+}
+
+/* Tablet (768px to 1023px) */
+@media (max-width: 1023px) and (min-width: 768px) {
+    .header-content {
+        flex-wrap: wrap;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        padding: 1px 0;
+        position: absolute;
+        top: 100%;
+        left: 0;
+
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+    }
+
+    .menu-toggle {
+        display: flex;
+    }
+    h1 {
+        font-size: 33px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    h4 {
+        font-size: 16px;
+    }
+
+    p {
+        font-size: 15px;
+        text-align: center;
+    }
+
+
+    .stats-container,
+    .services-grid,
+    .projects-grid
+    {
+        grid-template-columns: 1fr;
+    }
+
+    .card-container {
+        margin-top: 30px;
+    }
+
+    .click-btn, .explore-btn {
+        padding: 9px 20px;
+        font-size: 11px;
+        border-radius: 20px;
+    }
+
+    .click-text {
+        font-size: 10px;
+        transform: translateY(15px);
+    }
+
+    .footer-content {
+        flex-direction: column;
+    }
+
+    .footer-section {
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+
+    .footer-bottom-content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-bottom-links,
+    .footer-social {
+        margin-bottom: 15px;
+    }
+
+    .footer-social a {
+        margin: 0 10px;
+    }
+
+    h2.typing-text {
+        font-size: 24PX;
+        margin-bottom: 14px;
+    }
+    a.logo{
+        font-size: 28PX;
+    }
+}
+
+/* Large Mobile (481px to 767px) */
+@media (max-width: 767px) and (min-width: 481px) {
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        padding: 16px 0;
+        background-color: var(--bg-color);
+        position: absolute;
+        top: 100%;
+        left: 0;
+        box-shadow: 0 5px 10px var(--shadow-color);
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .nav-links li {
+        font-size:12px ;
+        margin: 8px 0;
+    }
+
+    .menu-toggle {
+        display: flex;
+    }
+
+    .profile-image {
+        display: block;
+        margin: 0 auto;
+        max-width: 65%;
+        height: auto;
+    }
+
+    h1 {
+        font-size: 29px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    h3 {
+        font-size: 22px;
+    }
+
+    h4 {
+        font-size: 12px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    .about-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .mouse-wrap {
+        display: none;
+    }
+
+    .skills-section {
+        justify-content: center;
+    }
+
+    .skills-container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .skill-card {
+        width: 70%;
+        margin-bottom: 10px;
+        transform: scale(0.8);
+        transition: transform 0.3s ease;
+    }
+
+    .skill-name {
+        font-size: 14px;
+    }
+
+    .skill-bar-bg {
+        width: 70%;
+    }
+
+    .skill-bar {
+        width: 70%;
+    }
+
+    .proceedings-grid {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .assigments-grid, .project-grid {
+        width: 100%;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    .click-btn, .explore-btn {
+        padding: 8px 20px;
+        font-size: 10px;
+        border-radius: 18px;
+    }
+
+    .click-text {
+        font-size: 9px;
+        transform: translateY(13px);
+    }
+
+    h2.typing-text {
+        font-size: 25PX;
+        margin-bottom: 14px;
+    }
+
+    a.logo{
+        font-size: 24PX;
+    }
+
+}
+
+/* Medium Mobile (321px to 480px) */
+@media (max-width: 480px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        padding: 15px 0;
+        background-color: var(--bg-color);
+        position: absolute;
+        top: 100%;
+        left: 0;
+        box-shadow: 0 5px 10px var(--shadow-color);
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .nav-links li {
+        margin: 7px 0;
+    }
+
+    .menu-toggle {
+        display: flex;
+    }
+
+    .profile-image {
+        display: block;
+        margin: 0 auto;
+        max-width: 55%;
+        height: auto;
+    }
+    h1 {
+        font-size: 25px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    h4 {
+        font-size: 11px;
+    }
+
+    p {
+        font-size: 11px;
+    }
+
+    .about-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .skills-section {
+        justify-content: center;
+    }
+
+    .mouse-wrap {
+        display: none;
+    }
+
+    .proceedings-grid {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .assigments-grid, .project-grid {
+        width: 100%;
+        max-width: 550px;
+        margin: 0 auto;
+    }
+
+    .click-btn, .explore-btn {
+        padding: 7px 16px;
+        font-size: 9px;
+        border-radius: 15px;
+    }
+
+    .click-text {
+        font-size: 8px;
+        transform: translateY(10px);
+    }
+
+    .skill-name {
+        font-size: 12px;
+    }
+
+    .skill-bar-bg {
+        width: 60%;
+    }
+
+    .skill-bar {
+        width: 60%;
+    }
+    .skill-card {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    h2.typing-text {
+        font-size: 21PX;
+        margin-bottom: 14px;
+    }
+
+    a.logo{
+        font-size: 22PX;
+    }
+}
+
+
+/* Small Mobile (320px and below) */
+@media (max-width: 320px) {
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        padding: 14px 0;
+        background-color: var(--bg-color);
+        position: absolute;
+        top: 100%;
+        left: 0;
+        box-shadow: 0 5px 10px var(--shadow-color);
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .nav-links li {
+        margin: 6px 0;
+    }
+
+    .menu-toggle {
+        display: flex;
+    }
+
+    .profile-image {
+        display: block;
+        margin: 0 auto;
+        max-width: 50%;
+        height: auto;
+    }
+    h1 {
+        font-size: 21px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    h4 {
+        font-size: 10px;
+    }
+
+    p {
+        font-size: 10px;
+    }
+
+    .about-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .skills-section {
+        justify-content: center;
+    }
+
+    .proceedings-grid {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .assigments-grid, .project-grid {
+        width: 100%;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    .click-btn, .explore-btn {
+        padding: 5px 13px;
+        font-size: 8px;
+        border-radius: 12px;
+    }
+
+    .click-text {
+        font-size: 7px;
+        transform: translateY(8px);
+    }
+
+    .skills-container {
+        flex-wrap: wrap; /* Allow items to wrap into multiple rows */
+        justify-content: center; /* Center the items */
+    }
+
+    .skill-card {
+        width: 70%;
+        margin-bottom: 9px;
+        transform: scale(0.8);
+        transition: transform 0.3s ease;
+    }
+
+    .skill-name {
+        font-size: 10px;
+    }
+
+    .skill-bar-bg {
+        width: 50%;
+    }
+
+    .skill-bar {
+        width: 50%;
+    }
+
+    h2.typing-text {
+        font-size: 17PX;
+        margin-bottom: 14px;
+    }
+
+    a.logo{
+        font-size: 16PX;
+    }
+}
+
+
+/* Typing animation styles */
+:root {
+    --typing-font-color: #333;
+    --cursor-color: #6b2172;
+    --typing-speed: 100ms;
+}
+
+.typing-container {
+    max-width: 1000px;
+    text-align: center;
+}
+
+.typing-text {
+    font-size: 8px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    text-align: center;
+    color: var(--primary-color);
+}
+
+
+.typing-text::after {
+    position: absolute;
+    right: -8px;
+    color: var(--cursor-color);
+    animation: blink 0.7s infinite;
+}
+
+.typing-text.finished::after {
+    display: none;
+}
+
+@keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+}
+
+p.typing-text {
+    margin-bottom: 20px;
+}
+
+.containerh2 {
+    height: 16vh;
+}
