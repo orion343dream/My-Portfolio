@@ -57,7 +57,7 @@ body {
 }
 
 .header.hidden {
-    transform: translateY(-100%); /* Move header out of view */
+    transform: translateY(-100%); 
 }
 
 .header-content {
@@ -130,7 +130,7 @@ body {
 
 
     .nav-icon:hover {
-        background-color: var(--secondary-color); /* Change background color to the secondary color on hover */
+        background-color: var(--secondary-color);
     }
 
 }
@@ -649,7 +649,7 @@ h4 {
     width: 100%;
     max-width: 300px;
     position: relative;
-    overflow: hidden; /* Ensure that hover effects do not spill out */
+    overflow: hidden;
 }
 
 .skill-card:hover {
@@ -667,8 +667,8 @@ h4 {
     background: linear-gradient(45deg, rgba(253, 5, 69, 0.3), rgba(74, 0, 224, 0.3));
     opacity: 0;
     transition: opacity 0.3s ease;
-    border-radius: 10px; /* Ensure it matches the card border radius */
-    z-index: 1; /* Ensure it's above the background */
+    border-radius: 10px;
+    z-index: 1;
 }
 
 .skill-card:hover::before {
@@ -678,7 +678,7 @@ h4 {
 .skill-icon {
     margin-right: 10px;
     font-size: 30px;
-    z-index: 2; /* Ensure icon appears above hover effect */
+    z-index: 2;
 }
 
 .skill-name {
@@ -686,12 +686,12 @@ h4 {
     font-size: 16px;
     font-weight: bold;
     color: #333;
-    z-index: 2; /* Ensure name appears above hover effect */
+    z-index: 2; 
 }
 
 /* Skill bar styles */
 .skill-bar-bg {
-    width: 100px; /* Adjust width as needed */
+    width: 100px;
     background-color: #ddd;
     border-radius: 5px;
     position: relative;
@@ -862,7 +862,6 @@ h3 {
 .assigments-item img, .project-item img {
     border-radius: 10px;
     transition: transform 0.3s ease, filter 0.3s ease, opacity 0.3s ease;
-    filter: blur(2px);
     opacity: 0.7;
 }
 
@@ -1106,8 +1105,8 @@ img {
     background: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
 }
 .footer-heading:hover {
-    transform: translateY(-5px) scale(1.0); /* Move up and slightly enlarge */
-    box-shadow: 0 1px 2px 0 var(--shadow-color); /* Add shadow effect */
+    transform: translateY(-5px) scale(1.0);
+    box-shadow: 0 1px 2px 0 var(--shadow-color);
 }
 .footer-links {
     list-style: none;
