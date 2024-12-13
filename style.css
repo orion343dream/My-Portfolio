@@ -859,16 +859,16 @@ h3 {
     transform: scale(1);
 }
 
-img {
-    width: 100%;
-    max-width: 150px;
+.assigments-item img, .project-item img {
     border-radius: 10px;
-    transition: transform 0.3s ease, filter 0.3s ease;
+    transition: transform 0.3s ease, filter 0.3s ease, opacity 0.3s ease;
+    filter: blur(2px);
+    opacity: 0.7;
 }
 
 .image-container:hover img {
     transform: scale(1.05);
-    filter: brightness(0.7);
+    filter: brightness(0.5);
 }
 
 
@@ -880,7 +880,7 @@ img {
 
 .click-btn, .explore-btn {
     padding: 10px 25px;
-    background: linear-gradient(45deg, #FF6B6B, #4ECDC4, #45B7D1, #6c5ce7);
+    background: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
     background-size: 400% 400%;
     color: white;
     border: none;
@@ -958,30 +958,17 @@ img {
     100% {background-position: 0 50%;}
 }
 
-@media (max-width: 768px) {
-    .assigments-grid, .project-grid {
-        width: 100%;
-    }
 
-    .click-btn, .explore-btn {
-        padding: 8px 16px;
-        font-size: 12px;
-    }
-
-    .click-text {
-        font-size: 10px;
-    }
-}
 
 .blinking-text {
     position: absolute;
-    top: 6px;
+    top: 25%;
     left: 50%;
     transform: translateX(-50%);
-    font-size: 12px;
+    font-size: 20px;
     font-weight: bold;
     color: var(--primary-color);
-    animation: blink 1s infinite;
+    animation: blink 3s infinite;
     z-index: 3;
 }
 .image-container:hover .blinking-text {
