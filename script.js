@@ -260,3 +260,19 @@ function smoothScroll(element, targetPosition, duration) {
 
     requestAnimationFrame(animation);
 }
+
+document.querySelectorAll('.card-container').forEach((cardContainer) => {
+    const card = cardContainer.querySelector('.card');
+
+    card.addEventListener('click', () => {
+        cardContainer.classList.toggle('active');
+    });
+
+    document.addEventListener('click', (event) => {
+        if (!cardContainer.contains(event.target)) {
+            cardContainer.classList.remove('active');
+        }
+    });
+});
+
+
